@@ -14,8 +14,11 @@ Go-Cat takes zero or more options, followed by zero or more file names. If no fi
 The available options are:
 
 `-A` : equivalent to `-vET`
+
 `-E` : display $ at the end of each line
+
 `-T` : display TAB characters as `^I`
+
 `-s` : squeeze multiple blank lines into one
 
 # Examples
