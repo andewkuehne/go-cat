@@ -15,7 +15,7 @@ The available options are:
 
 `-s` : squeeze multiple blank lines into one
 
-# Examples
+## Examples
 To display the contents of a file named example.txt, simply run:
 
 `go-cat example.txt`
@@ -32,7 +32,7 @@ To display the contents of a file and number each line, use the cat command in c
 
 `go-cat example.txt | nl`
 
-# Implementation
+## Implementation
 Go-Cat reads the contents of each file specified on the command line, concatenates them, and prints them to the standard output. It reads the files in chunks of 4KB, and can handle large files without running out of memory.
 
 Go-Cat also provides additional functionality for displaying non-printing characters and controlling the formatting of the output, including the ability to display TAB characters and end each line with a $ symbol.
